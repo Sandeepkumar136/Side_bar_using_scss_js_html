@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    background-color: #f9f9f9;
+}
+.nav_container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #b5a2ff;
+    margin: 4px;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+}
+.logo_contain{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    font-family: 500;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+}
+.toggle_button{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0 1rem 0 0;
+    cursor: pointer;
+}
+.fa-bars{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+#logo{
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+}
+// Side bar
+.up_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+.base-side-bar-contain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.5px solid #999;
+    padding: 0 0 0.2rem 0;
+}
+.links{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    list-style: none;
+    gap: 0.2rem;
+    flex-direction: column;
+}
+.link_base{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+    padding: 1rem 0.5rem;
+    border-radius: 10px;
+    background-color: #7799ff;
+}
+.hyper_link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    text-transform: capitalize;
+    letter-spacing: 0.1px;
+}
+.close_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.bx-x{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+
+
+.sider_bar{
+    position: fixed;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    margin: 4px;
+    padding: 1rem;
+    height: 100%;
+    width: 400px;
+    background-color: #b5a2ff;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
