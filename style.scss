@@ -91,7 +91,16 @@ body{
     font-weight: 500;
 }
 
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 0.2rem;
+    list-style-type: none;
 
+}
+.soc_hr_lnk i{
+    font-size: 1.5rem;
+}
 
 .sider_bar{
     position: fixed;
@@ -106,4 +115,15 @@ body{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    transition: all 0.4s linear;
+    transform: translateX(-120%);
+}
+.function_base{
+    transform: translateX(0);
+}
+@media screen and (max-width: 600px) {
+    .sider_bar{
+        width: 100%;
+    }
+    
 }
